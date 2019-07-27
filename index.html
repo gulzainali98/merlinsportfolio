@@ -6,37 +6,7 @@
 
 
   <!-- Start of Async Drift Code -->
-  <script>
-    "use strict";
 
-    ! function () {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide",
-            "off", "on"
-          ],
-          t.factory = function (e) {
-            return function () {
-              var n = Array.prototype.slice.call(arguments);
-              return n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function (e) {
-            t[e] = t.factory(e);
-          }), t.load = function (t) {
-            var e = 3e5,
-              n = Math.ceil(new Date() / e) * e,
-              o = document.createElement("script");
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src =
-              "https://js.driftt.com/include/" + n + "/" + t + ".js";
-            var i = document.getElementsByTagName("script")[0];
-            i.parentNode.insertBefore(o, i);
-          };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('7kum5mfbe36w');
-  </script>
   <!-- End of Async Drift Code -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -1333,6 +1303,7 @@
     </div>
   </div>
     <!-- Bootstrap core JavaScript -->
+    <script src="//code.tidio.co/yconebimxakawva3ylkzruexcbcyan9n.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -1346,6 +1317,7 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
     <script type="text/javascript" src="js/carousel.js"></script>
+    
 
 </body>
 
