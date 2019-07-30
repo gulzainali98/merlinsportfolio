@@ -6,37 +6,7 @@
 
 
   <!-- Start of Async Drift Code -->
-  <script>
-    "use strict";
 
-    ! function () {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide",
-            "off", "on"
-          ],
-          t.factory = function (e) {
-            return function () {
-              var n = Array.prototype.slice.call(arguments);
-              return n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function (e) {
-            t[e] = t.factory(e);
-          }), t.load = function (t) {
-            var e = 3e5,
-              n = Math.ceil(new Date() / e) * e,
-              o = document.createElement("script");
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src =
-              "https://js.driftt.com/include/" + n + "/" + t + ".js";
-            var i = document.getElementsByTagName("script")[0];
-            i.parentNode.insertBefore(o, i);
-          };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('7kum5mfbe36w');
-  </script>
   <!-- End of Async Drift Code -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -82,10 +52,11 @@
 <body id="page-top">
 
   <!-- Navigation -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"> -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a href="#page-top"><img class="navbar-brand js-scroll-trigger" src="img/merlins2.png" widht="80px"
-          height="80px" /></a>
+      <a href="#page-top"><img class="navbar-brand js-scroll-trigger" src="img/merlins2_resized.png" widht="65px"
+          height="65px" /></a>
       <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Merlins</a> -->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -516,15 +487,15 @@
       <div class="row">
         <div class="col-md-4 cool-sm-12">
           <h2 class="set-margin-bottom" style="text-align: center;color:#fec503;"> Projects Completed </h2>
-          <h3 class="add-border-right" style="text-align: center;"> 40+ </h3>
+          <h3 class="add-border-right" style="text-align: center;"> 10 </h3>
         </div>
         <div class="col-md-4 cool-sm-12">
           <h2 class="set-margin-bottom" style="text-align: center;color:#fec503"> Happy Clients</h2>
-          <h3 class="add-border-right" style="text-align: center;"> 12 </h3>
+          <h3 class="add-border-right" style="text-align: center;"> 7 </h3>
         </div>
         <div class="col-md-4 cool-sm-12">
           <h2 class="set-margin-bottom" style="text-align: center;color:#fec503"> Hours Worked </h2>
-          <h3 style="text-align: center;"> 430+ </h3>
+          <h3 style="text-align: center;"> 900+ </h3>
         </div>
       </div>
     </div>
@@ -563,8 +534,10 @@
     <div class="container">
       <div class="row">
         <div style="margin-bottom: 30px" class="row">
+          <div class="col-md-12 col-sm-12">
           <h6> We are looking forward to hearing from you. You can either email us or fill the form given below to
             contact us. </h6>
+          </div>
 
         </div>
         <div class="col-md-4 col-sm-6">
@@ -1330,8 +1303,9 @@
         </div>
       </div>
     </div>
-
+  </div>
     <!-- Bootstrap core JavaScript -->
+    <script src="//code.tidio.co/yconebimxakawva3ylkzruexcbcyan9n.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -1345,6 +1319,7 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
     <script type="text/javascript" src="js/carousel.js"></script>
+    
 
 </body>
 
